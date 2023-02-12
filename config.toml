@@ -1,4 +1,13 @@
-baseURL = 'http://hugo-quickstart-template.netlify.com'
-languageCode = 'en-us'
-title = 'Netlify + Hugo Quickstart'
-theme = 'netlify-basic'
+baseURL = 'https://www.mulletranch.org'
+title = 'Mullét Ranch'
+theme = 'ananke'
+languageCode = "en-us"
+resourceDir = "../resources"
+
+[params]
+    background_color_class = "bg-black"
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
