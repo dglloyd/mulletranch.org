@@ -2,7 +2,7 @@ describe('empty spec', () => {
   beforeEach(() => {
     cy.visit('/')
   })
-  it('displays the resources text', () => {
+  it('displays the name', () => {
     cy.get('h1')
     .contains('Mullét Ranch');
   })
